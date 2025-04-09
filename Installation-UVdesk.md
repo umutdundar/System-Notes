@@ -1,15 +1,17 @@
 # UVdesk Installation on Ubuntu Server
 
-## Install Packages
+## Upgrade Ubuntu
 ```sh
 sudo apt update
 sudo apt upgrade -y
-sudo apt install curl wget zip composer -y
-sudo apt install apache2 mariadb-server mariadb-client -y
-sudo apt install php php-curl php-intl php-gd php-dom php-iconv php-xsl php-mbstring php-ctype php-zip php-pdo php-xml php-bz2 php-calendar php-exif php-fileinfo php-json php-mysqli php-mysql php-posix php-tokenizer php-xmlwriter php-xmlreader php-phar php-soap php-mysql php-fpm libapache2-mod-php php-gmp php-bcmath php-apcu php-redis php-imagick php-imap php-xdebug php-mailparse -y
 ```
 
-## Super User
+## Install Packages
+```sh
+sudo apt install curl wget zip composer apache2 mariadb-server mariadb-client php php-curl php-intl php-gd php-dom php-iconv php-xsl php-mbstring php-ctype php-zip php-pdo php-xml php-bz2 php-calendar php-exif php-fileinfo php-json php-mysqli php-mysql php-posix php-tokenizer php-xmlwriter php-xmlreader php-phar php-soap php-mysql php-fpm libapache2-mod-php php-gmp php-bcmath php-apcu php-redis php-imagick php-imap php-xdebug php-mailparse -y
+```
+
+## Become Super User
 ```sh
 sudo su
 ```
