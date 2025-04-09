@@ -1,1 +1,1 @@
-# System-Notes
+It is all your resposibility.
